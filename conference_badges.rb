@@ -22,6 +22,7 @@ def assign_rooms(speakerList)
   roomArray
 end
 
-def printer
-  
+def printer(list)
+  batch_badge_creator(list)
+  assign_rooms(list)
 end
