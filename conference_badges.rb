@@ -6,7 +6,7 @@ end
 def batch_badge_creator(names)
   messageArray = []
   names.each do |item|
-    messageArray.pop("Hello, my name is #{item}")
+    messageArray.pop("Hello, my name is #{item}.")
   end
   
   messageArray
