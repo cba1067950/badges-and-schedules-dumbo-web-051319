@@ -4,7 +4,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
+  messageArray = []
   names.each do |item|
+    messageArray.pop("H")
     
 end
 
