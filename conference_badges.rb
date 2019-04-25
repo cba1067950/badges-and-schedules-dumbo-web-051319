@@ -23,8 +23,14 @@ def assign_rooms(speakerList)
 end
 
 def printer(list)
-  list.each_with_index do |item, index|
-    puts batch_badge_creator(list)
-    puts assign_rooms(list)
+  badgeList = batch_badge_creator(list)
+  roomList = assign_rooms(list)
+  
+  badgeList.each_with_index do |item, index|
+    puts badgeList[index]
+  end
+  
+  roomList.each_with_index do |item, index|
+    puts roomList[index]
   end
 end
