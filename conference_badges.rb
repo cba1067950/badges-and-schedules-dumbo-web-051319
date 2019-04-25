@@ -14,8 +14,13 @@ end
 
 def assign_rooms(speakerList)
   roomArray = []
+  roomCount = 0
   speakerList.each do |item|
-    roomArray.push("Hello, #{item})
+    roomArray.push("Hello, #{item}! You'll be assigned to room #{roomCount}!")
+    roomCount += 1
+  end
+  
+  roomArray
 end
 
 def printer
