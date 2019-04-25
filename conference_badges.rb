@@ -13,7 +13,9 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(speakerList)
-  
+  roomArray = []
+  speakerList.each do |item|
+    roomArray.push("Hello, #{item})
 end
 
 def printer
